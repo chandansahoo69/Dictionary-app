@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 100vh;
+}
+.input_container{
+    margin-top: 60px;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+}
+.brand{
+    margin: 0 auto;
+    text-align: center;
+    color: aliceblue;
+}
+.form_wrap{
+    display: flex;
+    justify-content: center;
+}
+.input_wrap{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+input{
+    border: 2px solid skyblue;
+    border-radius: 4px;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    width: 45vw;
+}
+.data_container{
+    display: none;
+    width: 50vw;
+    margin: 13px auto;
+    text-align: center;
+}
+.loading{
+    display: none;
+}
+.suggested{
+    background: plum;
+    color: aliceblue;
+    padding: 2px 10px;
+    border-radius: 4px;
+    margin: 10px 5px 0 0;
+    display: inline-block;
+}
+.audio{
+    margin-top: 20px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictonary App</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-primary">
+        <h3 class="brand">Dictonary App</h3>
+    </nav>
+
+    <div class="input_container">
+        <h2>Find any word exist in the world.</h2>
+        <div class="form_wrap">
+            <div class="input_wrap">
+                <input type="text" placeholder="Type a Word" id="input">
+                <button class="btn btn-primary" id="search">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="data_container alert alert-warning">
+        <span class="loading">Loading...</span>
+        <p class="def"></p>
+        <div class="audio"></div>
+        <div class="not_found"></div>
+    </div>
+
+    <!-- javascript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
